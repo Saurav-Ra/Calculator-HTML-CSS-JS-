@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    background: url('math1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculator {
+ padding: 15px;
+ border-radius: 1.5em;
+ height: 400px;
+ width: 500px;
+ margin: auto;
+ background-color: #cacee7;
+}
+.display-box {
+ /* font-family: 'Orbitron', sans-serif; */
+ background-color: #8f6afd7a;
+ border: solid rgb(46, 1, 1) 0.5px;
+ color: rgb(0, 0, 0);
+ border-radius: 15px;
+ width: 95%;
+ height: 65%;
+ font-size: 18px;
+ font-weight: bold;
+}
+.button {
+ /* font-family: 'Orbitron', sans-serif; */
+ background-color: #4e5afd;
+ color: white;
+ border: solid black 0.5px;
+ width: 85%;
+ border-radius: 30px;
+ height: 70%;
+ outline: none;
+ font-size: 25px;
+}
+.button:active {
+ background: #e5e5e5;
+ -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+ -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+ box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+span{
+   display: flex;
+   justify-content: center;
+    /* background-color: #cff87c85; */
+    text-align: center;
+    /* font-family: 'Orbitron', sans-serif; */
+     font-size: 70px;
+     margin-bottom: 40px;
+     font-style:oblique;
+     color: #0a0a0a;
+    
+}
